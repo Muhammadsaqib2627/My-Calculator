@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>welcome to calculte me!</h1>
+    </div>
+    <div class="container flex flex-col item-center mx-auto m-w-30">
+        <div class="row">
+            <input class="input" type="text">
+        </div>
+        <div class="row">
+            <button class="button" onclick="getTheData(C)">C</button>
+            <button class="button" onclick="getTheData('%')">%</button>
+            <button class="button" onclick="getTheData(M)">M</button>
+            <button class="button" onclick="getTheData('M-')">M-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="getTheData(7)">7</button>
+            <button class="button" onclick="getTheData(8)">8</button>
+            <button class="button" onclick="getTheData(9)">9</button>
+            <button class="button" onclick="getTheData('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="getTheData(4)">4</button>
+            <button class="button" onclick="getTheData(5)">5</button>
+            <button class="button" onclick="getTheData(6)">6</button>
+            <button class="button" onclick="getTheData('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="getTheData(1)">1</button>
+            <button class="button" onclick="getTheData(2)">2</button>
+            <button class="button" onclick="getTheData(3)">3</button>
+            <button class="button" onclick="getTheData('/')">/</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="getTheData('.')">.</button>
+            <button class="button" onclick="getTheData(0)">0</button>
+            <button class="button" onclick="getTheData('+')">+</button>
+            <button class="button" onclick="getTheData('=')">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
